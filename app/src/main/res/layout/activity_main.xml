@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abhinabera.jainmarketing_order.MainActivity">
+
+    <Button
+        android:id="@+id/orders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="ORDERS"
+        android:width="150dp"
+        android:layout_marginTop="181dp" />
+
+    <Button
+        android:id="@+id/customers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/orders"
+        android:layout_alignStart="@+id/orders"
+        android:layout_below="@+id/orders"
+        android:layout_marginTop="19dp"
+        android:width="150dp"
+        android:text="CUSTOMERS" />
+
+    <Button
+        android:id="@+id/items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/customers"
+        android:layout_alignStart="@+id/customers"
+        android:layout_below="@+id/customers"
+        android:layout_marginTop="19dp"
+        android:width="150dp"
+        android:text="ITEMS" />
+
+</RelativeLayout>
